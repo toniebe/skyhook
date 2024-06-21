@@ -32,6 +32,7 @@ import { Unity } from './provider/Unity.js'
 import { UptimeRobot } from './provider/UptimeRobot.js'
 import { VSTS } from './provider/VSTS.js'
 import { Type } from './util/TSUtility.js'
+import { Embrace } from './provider/Embrace.js'
 
 dotenv.config()
 
@@ -52,6 +53,7 @@ const providers: Type<BaseProvider>[] = [
     Codacy,
     Confluence,
     DockerHub,
+    Embrace,
     GitLab,
     Heroku,
     Instana,
