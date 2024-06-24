@@ -27,7 +27,7 @@ export class Embrace extends DirectParseProvider {
         this.payload.avatar_url = 'https://play-lh.googleusercontent.com/JboJDdtKBMWmb039ZQhCjzuDiyKKSZjDbeY0o17yk2H-KL-u5cDeGbkpladlrxBgYIk=w240-h480-rw'
        
         this.addEmbed({
-            title: '[' + projectName + '] ' + ' Alert from' + projectVersion,
+            title: '[' + projectName + '] ' + ' Alert from ' + projectVersion,
             url: download,
             description: content
         })
